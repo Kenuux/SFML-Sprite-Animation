@@ -7,6 +7,9 @@
 *.userosscache
 *.sln.docstates
 
+# DLLs
+*.dll
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -259,3 +262,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/SFML-Sprite-Anim/App.config
+/SFML-Sprite-Anim/SFML-Sprite-Anim.csproj
+/SFML-Sprite-Anim.sln
