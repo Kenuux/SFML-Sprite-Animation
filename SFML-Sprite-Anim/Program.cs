@@ -17,7 +17,7 @@ namespace SFML_Test
         static void Main()
         {
             // INITIALIZING WINDOW
-            RenderWindow renderWindow = new RenderWindow(new VideoMode(800, 600), "www.github.com/kenuux - SFML Learning Purpose - Sprite Movement/Animation", Styles.Close, new ContextSettings(32, 0, 8));
+            RenderWindow renderWindow = new RenderWindow(new VideoMode(800, 600), "www.github.com/kenuux - SFML Learning Purpose - Sprite Movement/Animation", Styles.Close, new ContextSettings(32, 0, 0));
             renderWindow.SetFramerateLimit(60);
             renderWindow.Closed += RenderWindow_Closed;
 

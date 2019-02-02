@@ -15,7 +15,7 @@ namespace SFML_Test.characters
         IDLE, WALK
     }
 
-    class Character
+    class Character : IDisposable
     {
         public Sprite sprite { get; }
         private Vector2f pos;
@@ -61,6 +61,7 @@ namespace SFML_Test.characters
             // CHAR LABEL
             text.Origin = new Vector2f(text.GetLocalBounds().Width / 2, sprite.GetLocalBounds().Height / 2);
             text.Position = new Vector2f((int)sprite.Position.X, (int)sprite.Position.Y - 100);
+            text.Scale = new Vector2f(0.9f, 0.9f);
         }
 
         private void SetDirection(Vector2f dir)
@@ -100,6 +101,13 @@ namespace SFML_Test.characters
                 walkingIndex = WalkingIndex.IDLE;
             }
             SetDirection(dir);
+        }
+
+        public void Dispose()
+        {
+            font.Dispose();
+            text.Dispose();
+            sprite.Dispose();
         }
     }
 }
