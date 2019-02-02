@@ -12,3 +12,5 @@ Screenshots
 </details>
 
 [...]
+
+Assets by https://lionheart963.itch.io/
