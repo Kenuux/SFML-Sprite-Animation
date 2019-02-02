@@ -8,7 +8,7 @@ Screenshots
 
 <details>
   <summary>Sprite Animation</summary>
-  ![](https://i.imgur.com/bwvUUXM.gifv)
+  https://imgur.com/bwvUUXM
 </details>
 
 [...]
